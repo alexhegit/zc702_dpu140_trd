@@ -21,7 +21,7 @@ This TRD is implement DPU v1.4.0 on Xilinx zc702 board.
 - vivado (files for vivado project)
 - zynq7020_dnndk_v3.0 (bin and runtime of dnndk v3.0 for zynq device)
 
-'''
+```
 zc702_dpu140_trd$ tree -L 2
 .
 ├── apps
@@ -43,7 +43,7 @@ zc702_dpu140_trd$ tree -L 2
     └── pkgs
 
 9 directories, 9 files
-'''
+```
 
 ## Hands-On
 See the Hands-On.md for details.
