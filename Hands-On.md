@@ -238,7 +238,7 @@ The result image window will pop up in HOST Window OS.
 
 
 ## Reference
-- [PG338](https://www.xilinx.com/products/design-tools/nux-package --boot --fsbl ./images/linux/zynq_fsbl.elf --fpga ./images/linux/system.bit --u-bootai-inference/ai-developer-hub.html)
+- [PG338](https://www.xilinx.com/products/design-tools/ai-inference/ai-developer-hub.html)
 - [UG1305](https://github.com/Xilinx/Edge-AI-Platform-Tutorials/tree/master/docs/DPU-Integration)
 
 
