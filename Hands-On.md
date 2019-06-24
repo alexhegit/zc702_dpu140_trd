@@ -20,8 +20,8 @@ since the limitation resource on XC7Z020-CLG484-1. And I use the common S-AXI Cl
 the clock connection. You can find the option of Advanced setting of DPU IP.
 
 The details in step by step can refer to PG338 and here just some highlight attentions.
-- Common S-AXI Clock Mode for easy connnect
-- Clock 100MHz for DPU and Clock 200MHz for DPU DSP
+- S_AXI Clock @ 100MHz
+- M_AXI Clock @ 150MHz for DPU and Clock @ 300MHz for DPU DSP
 - DPU IRQ connect to IRQ_F2P[0]
 - DPU S_AXI address set 0x4F000000 - 0x4FFFFFFF(16M)
 
