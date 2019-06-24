@@ -16,8 +16,7 @@ changed for this target design. So write down this quick guide and will highlite
 
 ### Vivado IPI
 The DPU v1.4.0 is the unified version to support Zynq and Zynq MPSoC. I just put one DPU 1152 on ZC702
-since the limitation resource on XC7Z020-CLG484-1. And I use the common S-AXI Clock Mode to simplify
-the clock connection. You can find the option of Advanced setting of DPU IP.
+since the limitation resource on XC7Z020-CLG484-1. 
 
 The details in step by step can refer to PG338 and here just some highlight attentions.
 - S_AXI Clock @ 100MHz
