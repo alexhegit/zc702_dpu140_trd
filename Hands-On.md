@@ -16,7 +16,7 @@ changed for this target design. So write down this quick guide and will highlite
 
 ### Vivado IPI
 The DPU v1.4.0 is the unified version to support Zynq and Zynq MPSoC. I just put one DPU 1152 on ZC702
-since the limitation resource on XC7Z020-CLG484-1. 
+since the limitation resource on XC7Z020-CLG484-1.
 
 The details in step by step can refer to PG338 and here just some highlight attentions.
 - S_AXI Clock @ 100MHz
@@ -25,6 +25,12 @@ The details in step by step can refer to PG338 and here just some highlight atte
 - DPU S_AXI address set 0x4F000000 - 0x4FFFFFFF(16M)
 
 The project and bd tcl provide for recreating the Vivado project.
+
+Here are the snapshot images to help you do the IPI.
+- ![DPU Clock Connect](./vivado/IPI_images/DPU_CLK_Connect.JPG)
+- ![DPU Clock Source Settings](./vivado/IPI_images/DPU_CLK_Source_Settings.JPG)
+- ![DPU Interrupt Connect](./vivado/IPI_images/DPU_Interrupt_Connect.JPG)
+- ![DPU Register Address](./vivado/IPI_images/DPU_Register_Address.JPG)
 
 Suppose you export the HDF file named as zc702_dpu140_design1_wrapper.hdf.
 
