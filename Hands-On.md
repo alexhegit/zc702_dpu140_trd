@@ -7,7 +7,7 @@
 - xilinx-zc702-v2018.3-final.bsp
 
 
-Please refer to PG338 and UG1305 DPU Integration Tutorial@Github
+Please refer to PG338 and UG1350 DPU Integration Tutorial@Github
 
 Since the DPU version and Boards different used in the documentation above, the steps should be some
 changed for this target design. So write down this quick guide and will highlite the key ponits.
@@ -249,6 +249,6 @@ The result image window will pop up in HOST Window OS.
 
 ## Reference
 - [PG338](https://www.xilinx.com/products/design-tools/ai-inference/ai-developer-hub.html)
-- [UG1305](https://github.com/Xilinx/Edge-AI-Platform-Tutorials/tree/master/docs/DPU-Integration)
+- [UG1350](https://github.com/Xilinx/Edge-AI-Platform-Tutorials/tree/master/docs/DPU-Integration)
 
 
