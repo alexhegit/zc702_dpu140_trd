@@ -58,7 +58,7 @@ Application may depend on multiple 3rd libs like OpenCV need very large space bu
 So we suggest use at least 16G SD card and format it with two partitions. The 1st partition is FAT32 should
 enough for put BOOT.bin and image.ub that 128Mb shoulbe be good. Other space go to 2nd partition in Ext4.
 
-4. Copy files from DPU-Integration of Edge-AI-Platform-Tutorials
+4. Copy files from [DPU Integration Tutorial](https://github.com/Xilinx/Edge-AI-Platform-Tutorials/tree/master/docs/DPU-Integration) of Edge-AI-Platform-Tutorials 
 
 Let's borrow some files for petalinux from Github project Edge-AI-Platform_tutorials (Step 2).
 The files are in ./Edge-AI-Platform-Tutorials/docs/DPU-Integration/reference-files/files.
